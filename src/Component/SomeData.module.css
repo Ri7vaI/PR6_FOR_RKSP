@@ -1,0 +1,5 @@
+.block1 {
+    background: #ccc;
+    display: flex;
+    border: solid 1px black;
+}
