@@ -9,6 +9,7 @@ const Navigation = (props) => {
                 <li><NavLink to="/">Main</NavLink></li>
                 <li><NavLink to="/dialogs">Dialogs</NavLink></li>
                 <li><NavLink to="/data">SomeData</NavLink></li>
+                <li><NavLink to="/page">PageLayout</NavLink></li>
             </ul>
         </div>
     );
