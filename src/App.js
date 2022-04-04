@@ -1,11 +1,5 @@
 import React, {useState} from "react";
 import './App.css';
-import {BrowserRouter, BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import PropComp from "./Component/PropComp";
-import Header from "./Component/Header";
-import SomeData from "./Component/SomeData";
-import Navigation from "./Component/Navigation";
-import Dialogs from "./Component/Dialogs";
 import {PageLayout} from "./Component/PageLayout";
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from "@azure/msal-react";
 import { loginRequest } from "./authConfig";
